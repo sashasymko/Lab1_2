@@ -25,6 +25,8 @@ Output:
 
 HTML map with the unique features that shows the locations of the films.
 
+![image](https://user-images.githubusercontent.com/92580268/153600019-241fc20a-946f-4e1e-aef2-b42f13177c58.png)
+
  
  
 
