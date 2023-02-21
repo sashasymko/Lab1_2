@@ -68,7 +68,7 @@ def create_map(df, lat, long):
     for index, row in df.iterrows():
         latitude = row['coordinates'][0]
         longitude = row['coordinates'][1]
-        feature_group.add_child(folium.Marker(location=[latitude, longitude], popup=row['Place of Filming'],
+        feature_group.add_child(folium.Marker(location=[latitude, longitude],
                                               icon=folium.Icon(icon='needed_film', color="green")))
     map.add_child(feature_group)
     plugins.ScrollZoomToggler().add_to(map)
